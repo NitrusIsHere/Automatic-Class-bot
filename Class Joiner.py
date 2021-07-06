@@ -14,18 +14,19 @@ time.sleep(10)
 pyautogui.typewrite("your google meet class link", interval = 0.05)
 time.sleep(5)
 
+pyautogui.click('enter' , interval = 0.5)
 #Mute Turn off video and join button clickers!
 
 #Mute button
-pyautogui.click('coordinates of mute button')
+pyautogui.click(coordinates of mute button)
 time.sleep(2)
 
 #Turn video off button
-pyautogui.click('coordinates of video off button')
+pyautogui.click(coordinates of video off button)
 time.sleep(3)
 
 #Ask to Join button
-pyautogui.click('coordinates of the Join button')
+pyautogui.click(coordinates of the Join button)
 time.sleep(3)
 
 print("""Congratulations you have successfully completed the process of joining the class using the bot!
